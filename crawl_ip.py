@@ -118,6 +118,7 @@ class Proxies(object):
 if __name__ == '__main__':
     import random
 
+    # random.randint(0, 10) 为随机页码, 2 为需爬取多少页
     a = Proxies(random.randint(0, 10), 2)
     print('调用')
     a.verify_proxies()
